@@ -1,0 +1,45 @@
+{
+  "fitbit": {
+    "appUUID": "e5d2d7a2-1978-463a-85e5-c0d58fec930d",
+    "appType": "clockface",
+    "appDisplayName": "Time Aside",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Time Aside"
+      },
+      "de": {
+        "name": "Zeit Beiseite"
+      },
+      "es": {
+        "name": "Tiempo a un lado"
+      },
+      "fr": {
+        "name": "Temps à côté"
+      },
+      "it": {
+        "name": "Tempo a parte"
+      },
+      "ja": {
+        "name": "時間を脇に"
+      },
+      "ko": {
+        "name": "시간을 제쳐두고"
+      },
+      "nl": {
+        "name": "Tijd terzijde"
+      },
+      "sv": {
+        "name": "Tid åt sidan"
+      }
+    }
+  }
+}

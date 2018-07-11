@@ -1,0 +1,52 @@
+<svg class="background">
+  <rect id="bg" pointer-events="visible" x="0" y="0" width="100%" height="100%"  fill="lightblue" />
+
+  <text id="month" />
+  <text id="date" />
+  <text id="minutes" />
+  <text id="hours" />
+  
+  <svg x="50%-65" y="20%">
+    <arc id="stepsArc" x="0" y="0" width="60" height="60" fill="blue"
+       arc-width="10" start-angle="0" sweep-angle="90" />
+    <image id="stepsImage" href="stat_steps_solid_24px.png" fill="brown" x="18" y="18" width="24" height="24" />
+    <text id="stepsLabel" x="30" y="75" font-family="System-Regular" fill="black" font-size="20"
+        text-anchor="middle">Steps</text>
+  </svg>
+  
+ <svg x="50%+5" y="20%">
+   <arc id="cals" x="0" y="0" width="60" height="60" fill="black"
+       arc-width="10" start-angle="0" sweep-angle="90" />
+   <image id="calsImage" href="stat_cals_solid_24px.png" fill="red" x="18" y="18" width="24" height="24" />
+
+   <text id="calsLabel" x="30" y="75" font-family="System-Regular" fill="black" font-size="20"
+        text-anchor="middle">Calories</text>
+  </svg>
+
+ <svg x="50%-65" y="75%-60">
+   <arc id="floorsArc" x="0" y="0" width="60" height="60" fill="black"
+       arc-width="10" start-angle="0" sweep-angle="90" />
+   <image id="floorsImage" href="stat_floors_solid_24px.png" fill="black" x="18" y="18" width="24" height="24" />
+
+   <text id="floorsLabel" x="30" y="75" font-family="System-Regular" fill="black" font-size="20"
+        text-anchor="middle">Floors</text>
+  </svg>
+  
+ <svg x="50%+5" y="75%-60">
+   <arc id="activityArc" x="0" y="0" width="60" height="60" fill="black"
+       arc-width="10" start-angle="0" sweep-angle="90" />
+   <image id="activityImage" href="stat_am_solid_24px.png" fill="gold" x="18" y="18" width="24" height="24" />
+
+   <text id="activityLabel" x="30" y="75" font-family="System-Regular" fill="black" font-size="20"
+        text-anchor="middle">Active</text>
+  </svg>
+  <image id="min1" href="0.png" width="31" height="39" x="10" y="10" />
+  <image id="min2" href="1.png" width="31" height="39" x="10" y="30" />
+  <image id="hour1" href="0.png" width="31" height="39" x="10" y="10" />
+  <image id="hour2" href="1.png" width="31" height="39" x="10" y="30" />
+  <image id="mon1" href="0.png" width="31" height="39" x="10" y="10" />
+  <image id="mon2" href="1.png" width="31" height="39" x="10" y="30" />
+  <image id="date1" href="0.png" width="31" height="39" x="10" y="10" />
+  <image id="date2" href="1.png" width="31" height="39" x="10" y="30" />
+</svg>  
+
